@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "type": "panel",
+        "childs": [
+            {
+                "id": "1-1",
+                "type": "textbox",
+                "label": "Name"
+            },
+            {
+                "id": "1-2",
+                "type": "textbox",
+                "label": "Email",
+                "inline": true
+            },
+            {
+                "id": "2",
+                "type": "panel",
+                "label": "Information",
+                "childs": [
+                    {
+                        "id": "2-1",
+                        "type": "textbox",
+                        "label": "Name"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "type": "panel",
+                "label": "Options",
+                "childs": [
+                    {
+                        "id": "3-1",
+                        "type": "select",
+                        "label": "Options",
+                        "options": [
+                            {
+                                "value": "1",
+                                "text": "one"
+                            },
+                            {
+                                "value": "2",
+                                "text": "two"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3-2",
+                        "type": "select",
+                        "label": "Options 2",
+                        "inline": true,
+                        "options": [
+                            {
+                                "value": "3",
+                                "text": "three"
+                            },
+                            {
+                                "value": "4",
+                                "text": "four"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3-3",
+                        "type": "checkbox",
+                        "label": "Checkbox!"
+                    }
+                ]
+            }
+        ]
+    }
+]

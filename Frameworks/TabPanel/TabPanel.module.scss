@@ -1,0 +1,40 @@
+$border: 1px solid gray;
+
+.tab_panel {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+
+    &>.tabs {
+        display: flex;
+        flex-direction: row;
+        border-bottom: $border;
+        padding: 5px 5px 0 5px;
+
+        &>.tab {
+            display: flex;
+            background-color: #fff;
+            border: $border;
+            cursor: pointer;
+            margin-bottom: -1px;
+            color: #000;
+
+            &.active {
+                cursor: default;
+                border-bottom: 1px solid #fff;
+                position: relative;
+                z-index: 2;
+                font-weight: bold;
+            }
+
+            &:not(:first-of-type) {
+                border-left: unset;
+            }
+        }
+    }
+
+    &>.containers {
+        display: flex;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "target": "ESNext",
+    "baseUrl": "./",
+    "lib": [
+      "DOM",
+      "ES2015"
+    ],
+    "paths": {
+      "Domain/*": [
+        "./Domain/*"
+      ],
+      "Applications/*": [
+        "./Applications/*"
+      ],
+      "Repositories/*": [
+        "./Repositories/*"
+      ],
+      "Frameworks/*": [
+        "./Frameworks/*"
+      ]
+    }
+  },
+  "files": [
+    "./app.tsx"
+  ],
+  "include": [
+    "Domain",
+    "Applications",
+    "Repositories",
+    "Frameworks",
+  ]
+}
