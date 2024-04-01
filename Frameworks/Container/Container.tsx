@@ -52,6 +52,6 @@ export class Container extends React.Component<IContainerProps, IContainerState>
         return this.draw();
     }
     public addControl(type: EnumControlType): void {
-        this.broadcast('getProperties') //TODO: Определение контрола по типу и вывод его параметров
+        //this.broadcast('getProperties') //TODO: Определение контрола по типу и вывод его параметров
     }
 }
